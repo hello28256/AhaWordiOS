@@ -8,6 +8,9 @@ struct BingMetaItem: Codable {
     let md5: String
 }
 
+
+
+
 final class ImageService {
     static let shared = ImageService()
     private init() {}
